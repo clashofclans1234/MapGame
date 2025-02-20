@@ -106,7 +106,7 @@ function checkAnswer(userAnswer) {
         feedback.innerText = "Correct!";
         feedback.style.color = "green";
     } else {
-        feedback.innerText = "Wrong!";
+        feedback.innerText = `Wrong! The correct answer is ${targetCountry.former_colonial_power}.`;
         feedback.style.color = "red";
     }
     updateScore();
