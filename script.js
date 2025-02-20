@@ -4,8 +4,8 @@ const countries = [
     { name: "Benin", former_colonial_power: "France" },
     { name: "Botswana", former_colonial_power: "Britain" },
     { name: "Burkina Faso", former_colonial_power: "France" },
-    { name: "Burundi", former_colonial_power: "Belgium" },
-    { name: "Cameroon", former_colonial_power: "Germany/France/Britain" },
+    { name: "Burundi", former_colonial_power: "Germany" },
+    { name: "Cameroon", former_colonial_power: "Germany" },
     { name: "Cape Verde", former_colonial_power: "Portugal" },
     { name: "Central African Republic", former_colonial_power: "France" },
     { name: "Chad", former_colonial_power: "France" },
@@ -16,7 +16,7 @@ const countries = [
     { name: "Equatorial Guinea", former_colonial_power: "Spain" },
     { name: "Eritrea", former_colonial_power: "Italy" },
     { name: "Eswatini", former_colonial_power: "Britain" },
-    { name: "Ethiopia", former_colonial_power: "Independent (briefly occupied by Italy)" },
+    { name: "Ethiopia", former_colonial_power: "Independent" },
     { name: "Gabon", former_colonial_power: "France" },
     { name: "Gambia", former_colonial_power: "Britain" },
     { name: "Ghana", former_colonial_power: "Britain" },
@@ -32,22 +32,22 @@ const countries = [
     { name: "Mali", former_colonial_power: "France" },
     { name: "Mauritania", former_colonial_power: "France" },
     { name: "Mauritius", former_colonial_power: "Britain" },
-    { name: "Morocco", former_colonial_power: "France/Spain" },
+    { name: "Morocco", former_colonial_power: "France" },
     { name: "Mozambique", former_colonial_power: "Portugal" },
-    { name: "Namibia", former_colonial_power: "Germany/South Africa" },
+    { name: "Namibia", former_colonial_power: "Germany" },
     { name: "Niger", former_colonial_power: "France" },
     { name: "Nigeria", former_colonial_power: "Britain" },
-    { name: "Rwanda", former_colonial_power: "Germany/Belgium" },
+    { name: "Rwanda", former_colonial_power: "Germany" },
     { name: "Sao Tome and Principe", former_colonial_power: "Portugal" },
     { name: "Senegal", former_colonial_power: "France" },
     { name: "Seychelles", former_colonial_power: "Britain" },
     { name: "Sierra Leone", former_colonial_power: "Britain" },
-    { name: "Somalia", former_colonial_power: "Italy/Britain" },
+    { name: "Somalia", former_colonial_power: "Italy" },
     { name: "South Africa", former_colonial_power: "Britain" },
     { name: "South Sudan", former_colonial_power: "Britain" },
     { name: "Sudan", former_colonial_power: "Britain" },
-    { name: "Tanzania", former_colonial_power: "Germany/Britain" },
-    { name: "Togo", former_colonial_power: "Germany/France" },
+    { name: "Tanzania", former_colonial_power: "Germany" },
+    { name: "Togo", former_colonial_power: "Germany" },
     { name: "Tunisia", former_colonial_power: "France" },
     { name: "Uganda", former_colonial_power: "Britain" },
     { name: "Zambia", former_colonial_power: "Britain" },
@@ -66,7 +66,7 @@ document.body.appendChild(mapImage);
 const promptText = document.createElement("p");
 document.body.appendChild(promptText);
 
-const colonialPowers = ["France", "Britain", "Portugal", "Spain", "Italy", "Germany", "Belgium"];
+const colonialPowers = ["France", "Britain", "Portugal", "Spain", "Italy", "Germany", "Belgium", "Independent"];
 const buttonContainer = document.createElement("div");
 const feedback = document.createElement("p");
 const scoreDisplay = document.createElement("p");
